@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    //unsigned      1 bit       - libera o bit de sinal para extender o limete do numero armazenado
+    //unsigned      1 bit       - libera o bit de sinal para extender o limite do numero armazenado
     //char          1 Byte      - Usado tb para numeros. Por ex: 'A' = 65
     //short         2 Bytes
     //int           4 Bytes
@@ -58,7 +58,7 @@ int main(int argc, const char * argv[]) {
     std::cout << boleano << "\n" << std::endl;
     
     //bool* ponteiro;    //Por um '*' define isso como ponteiro em vez de variavel
-    //bool& referencia;  //Por um '*' define isso como referencia em vez de variavel
+    //bool& referencia;  //Por um '&' define isso como referencia em vez de variavel
     
     return 0;
 }
